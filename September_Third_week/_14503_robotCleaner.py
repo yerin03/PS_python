@@ -7,7 +7,6 @@ direction = [(-1,0),(0,1),(1,0),(0,-1)]
 room[r][c] = 2  # 처음칸 색칠
 cnt = 1
 
-
 def solution():
     global cnt
 
