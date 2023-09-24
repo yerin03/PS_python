@@ -1,7 +1,6 @@
 dx = [0, 0, -1, 1]  # →, ←, ↑, ↓
 dy = [1, -1, 0, 0]
 
-
 def change_dir(d):
     if d == 0:
         return 1
@@ -11,7 +10,6 @@ def change_dir(d):
         return 3
     elif d == 3:
         return 2
-
 
 def move(horse_num):
     x, y, d = horse[horse_num]
@@ -63,3 +61,4 @@ while turn <= 1000:
             exit()
 
 print(-1)
+
