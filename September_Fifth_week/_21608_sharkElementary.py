@@ -66,3 +66,5 @@ seat_students()
 
 # 전체 학생의 만족도 출력
 print(satisfaction)
+
+
